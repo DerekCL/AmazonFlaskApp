@@ -26,7 +26,7 @@ def hello():
     # return "Hello World!"
     #    return name
     return render_template(
-        'layout.html', **locals())
+        'test.html', **locals())
 
 
 if __name__ == "__main__":
